@@ -5,8 +5,8 @@ import logging
 from datetime import datetime
 from hydrogram import Client
 from typing import Any, Optional
-from pyrogram.types import Message
-from pyrogram.file_id import FileId
+from hydrogram.types import Message
+from hydrogram.file_id import FileId
 from WebStreamer.bot import StreamBot
 from WebStreamer.utils.database import Database
 from WebStreamer.vars import Var
