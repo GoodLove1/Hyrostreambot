@@ -2,7 +2,7 @@
 
 import asyncio
 import traceback
-from pyrogram.errors import FloodWait, InputUserDeactivated, UserIsBlocked, PeerIdInvalid
+from hydrogram.errors import FloodWait, InputUserDeactivated, UserIsBlocked, PeerIdInvalid
 
 
 async def send_msg(user_id, message):
