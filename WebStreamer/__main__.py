@@ -7,7 +7,7 @@ import traceback
 import logging.handlers as handlers
 from .vars import Var
 from aiohttp import web
-from pyrogram import idle
+from hydrogram import idle
 from WebStreamer.bot import StreamBot
 from WebStreamer.server import web_server
 from WebStreamer.utils import ping_server
