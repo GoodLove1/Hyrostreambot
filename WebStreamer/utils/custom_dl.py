@@ -5,17 +5,17 @@ import logging
 # import heapq
 from typing import Dict, Union
 from WebStreamer.bot import work_loads, cdn_count
-from pyrogram import Client, utils, raw
+from hydrogram import Client, utils, raw
 from .file_properties import get_file_ids
 from hashlib import sha256
-from pyrogram.crypto import aes
-from pyrogram.session import Session, Auth
-from pyrogram.errors import AuthBytesInvalid
-from pyrogram.errors import CDNFileHashMismatch
-from pyrogram.errors import (
+from hydrogram.crypto import aes
+from hydrogram.session import Session, Auth
+from hydrogram.errors import AuthBytesInvalid
+from hydrogram.errors import CDNFileHashMismatch
+from hydrogram.errors import (
     VolumeLocNotFound, AuthBytesInvalid
 )
-from pyrogram.file_id import FileId, FileType, ThumbnailSource
+from hydrogram.file_id import FileId, FileType, ThumbnailSource
 
 
 class ByteStreamer:
