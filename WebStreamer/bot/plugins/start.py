@@ -12,10 +12,10 @@ from WebStreamer.utils.bot_utils import is_user_accepted_tos, is_user_banned, is
 from WebStreamer.vars import Var
 from WebStreamer.utils.database import Database
 from WebStreamer.utils.Translation import Language, BUTTON
-from pyrogram import filters, Client
-from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton, Message
-from pyrogram.enums.parse_mode import ParseMode
-from pyrogram.enums.chat_action import ChatAction
+from hydrogram import filters, Client
+from hydrogram.types import InlineKeyboardMarkup, InlineKeyboardButton, Message
+from hydrogram.enums.parse_mode import ParseMode
+from hydrogram.enums.chat_action import ChatAction
 
 db = Database(Var.DATABASE_URL, Var.SESSION_NAME)
 url_pattern = re.compile(r'https?://dl\.tgxlink\.eu\.org/dl/([0-9a-fA-F]{24})')
