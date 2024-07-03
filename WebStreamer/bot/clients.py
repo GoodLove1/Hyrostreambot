@@ -4,7 +4,7 @@ import asyncio
 import logging
 from os import environ
 from ..vars import Var
-from pyrogram import Client
+from hydrogram import Client
 from . import multi_clients, work_loads, StreamBot
 
 
