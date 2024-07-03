@@ -3,7 +3,7 @@
 from __future__ import annotations
 import logging
 from datetime import datetime
-from pyrogram import Client
+from hydrogram import Client
 from typing import Any, Optional
 from pyrogram.types import Message
 from pyrogram.file_id import FileId
