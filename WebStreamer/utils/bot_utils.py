@@ -1,6 +1,6 @@
-from pyrogram.errors import UserNotParticipant
-from pyrogram.enums.parse_mode import ParseMode
-from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton, Message
+from hydrogram.errors import UserNotParticipant
+from hydrogram.enums.parse_mode import ParseMode
+from hydrogram.types import InlineKeyboardMarkup, InlineKeyboardButton, Message
 from WebStreamer.utils.Translation import Language
 from WebStreamer.utils.database import Database
 from WebStreamer.utils.file_properties import get_media_file_size, get_name
